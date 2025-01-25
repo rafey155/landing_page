@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    margin: 10px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.menu a{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu .icon i{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.h-txt{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.h-txt i{
+    font-size: 25px;
+}
+
+
+.btn button{
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+
+#n-login{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#s-signup{
+    color: whitesmoke;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+h1{
+    text-align: center;
+    width: 100vh;
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main img{
+    border-radius: 10px;
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-40deg); 
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-30deg); 
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-15deg); 
+}
+
+#img4{
+    transform: translate(-50%, -50%) rotate(-0deg); 
+}
+
+
