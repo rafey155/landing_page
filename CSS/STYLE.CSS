@@ -104,4 +104,23 @@ main img{
     transform: translate(-50%, -50%) rotate(-0deg); 
 }
 
+.btm-txt h5{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+}
 
+
+.btm-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 90%;
+}
+
+.btm-right i{
+    font-size: 25px;
+    margin: 5px;
+}
