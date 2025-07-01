@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 2vw;
+  padding: 0 10px;
+  font-weight: 100;
+}
+
+nav i {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 2vw;
+  margin-right: 10px;
+  padding: 0.2em;
+  border-radius: 50%;
+  font-weight: 100;
+}
+
+.centertxt {
+  width: 100%;
+}
+
+.centertxt h1 {
+  font-size: 3.5vw;
+  line-height: 3.5vw;
+  padding: 20px 40px;
+}
+
+.center-in {
+  /* height: 30vh; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.intxt p {
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.inmenu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.inmenu h4 {
+  border-top: 1px solid black;
+  margin: 10px 0;
+  padding: 10px 0;
+  font-size: 1.5vw;
+}
+#logo {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo a {
+  font-size: 1.5vw;
+  margin: 8px;
+  color: black;
+}
+
+.carttxt {
+  display: flex;
+  gap: 50px;
+  padding-right: 30px;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+.carttxt i {
+  font-size: 1.5vw;
+}
+
+.back-img {
+  height: 35vh;
+  width: 100%;
+  background: url(jacket.jpg);
+  object-fit: contain;
+  background-position: center;
+}

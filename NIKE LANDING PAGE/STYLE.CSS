@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  background-color: #d0d4d5;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #d0d4d5; */
+}
+.nav {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-part1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 3em;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav img {
+  height: 10vh;
+  width: auto;
+  margin-right: 3.5em;
+  cursor: pointer;
+}
+
+.nav-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  gap: 80px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.content {
+  margin-top: 5em;
+  height: calc(100vh - 50vh);
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+.content-left {
+  width: 40%;
+  height: 100%;
+  padding: 40px 100px;
+}
+
+.content-left h5 {
+  font-size: 2em;
+  color: #555;
+  text-transform: capitalize;
+  margin-bottom: 0.3em;
+}
+
+.content-left h1 {
+  font-size: 3em;
+  margin-bottom: 0.3em;
+  color: black;
+  text-transform: uppercase;
+}
+
+.content-left p {
+  color: #000;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 40px;
+  border-top-left-radius: 0;
+}
+
+.content-right {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  padding: 4em 6em;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.content-right::-webkit-scrollbar {
+  display: none;
+}
+
+.product {
+  height: 20em;
+  width: 20em;
+  background-color: #1011;
+  box-shadow: 0 5px 10px rgba(17, 0, 17, 0.368);
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.product img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 20%;
+}
+
+.product h4 {
+  font-size: 1em;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 15%;
+}
+
+.catogry {
+  position: absolute;
+  bottom: 11%;
+  font-weight: 500;
+}
+
+.color {
+  position: absolute;
+  bottom: 6%;
+  font-weight: 500;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 1.3em;
+  position: absolute;
+  bottom: 1%;
+}

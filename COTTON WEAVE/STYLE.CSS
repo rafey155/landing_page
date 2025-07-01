@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 20px;
+  padding-top: 100px;
+  gap: 60px;
+}
+
+#left {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+#left h1 {
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 90px;
+}
+
+#bottom-left {
+  height: 40%;
+  width: 100%;
+}
+
+#color {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#color1 {
+  background-color: rgb(106, 106, 66);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+#color2 {
+  background-color: rgb(154, 125, 125);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+#left h2 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#left p {
+  margin-top: 10px;
+  width: 60%;
+  color: #444;
+}
+
+#right {
+  width: 33%;
+  height: 90%;
+  position: relative;
+}
+
+#right-top {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#right-top h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#right-top h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#right-top h5 i {
+  color: gold;
+}
+
+#right img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+
+#black-circle {
+  position: absolute;
+  top: 20%;
+  right: -10%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(15, 14, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#black-circle h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+#rotated {
+  position: absolute;
+  left: -5%;
+  bottom: 3%;
+  rotate: -90deg;
+  transform-origin: 0;
+  font-size: 30px;
+}
