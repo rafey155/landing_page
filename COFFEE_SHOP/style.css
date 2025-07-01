@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(50, 4, 4);
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  height: 20vh;
+  width: 100vw;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.nav-part1 img {
+  height: 8em;
+  cursor: pointer;
+}
+
+.nav-part1 h2 {
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.nav-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.nav-part2 ul {
+  gap: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  font-size: 1.5em;
+}
+
+.nav-part2 ul li {
+  list-style: none;
+}
+
+.nav-part2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+}
+
+.nav-part2 ul li a:hover {
+  background-color: rgb(247, 155, 7);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  color: rgb(50, 4, 4);
+}
+
+.content {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+}
+
+.content-left {
+  height: calc(100vh - 20vh);
+  width: 40%;
+  padding-top: 10em;
+  padding-left: 6em;
+}
+
+#left-h {
+  color: rgb(247, 155, 7);
+  font-size: 2em;
+  font-family: dancing script, cursive;
+  font-weight: bold;
+}
+
+.content-left h1 {
+  color: white;
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+.content-left p {
+  color: white;
+  margin-top: 20px;
+}
+
+.lft-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+  gap: 40px;
+}
+
+#order {
+  font-size: 1.3em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: rgb(50, 4, 4);
+  background-color: rgb(247, 155, 7);
+}
+
+#order:hover {
+  background-color: rgb(50, 4, 4);
+  color: white;
+  border: 2px solid white;
+}
+
+#contact {
+  font-size: 1.3em;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+}
+
+#contact:hover {
+  background-color: rgb(247, 155, 7);
+  color: rgb(50, 4, 4);
+  border: none;
+}
+
+.content-right {
+  height: calc(100vh - 20vh);
+  width: 60%;
+}
+
+.main-icn {
+  background-color: red;
+  height: 20vh;
+  width: 100%;
+}
